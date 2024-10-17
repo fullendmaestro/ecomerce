@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Counter } from "./components/counter/Counter";
 
 export default function IndexPage() {
-  return <Counter />;
+  return <LandingPage />;
 }
 
 export const metadata: Metadata = {
